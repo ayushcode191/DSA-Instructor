@@ -62,7 +62,7 @@ For valid questions:
 
     // Push the assistant's reply into history
     History.push({
-      role: 'assistant',
+      role: 'model',
       parts: [{ text: reply }]
     });
 
